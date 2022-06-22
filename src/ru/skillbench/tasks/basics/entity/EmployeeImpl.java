@@ -1,5 +1,9 @@
 package ru.skillbench.tasks.basics.entity;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.SocketException;
+
 public class EmployeeImpl implements Employee
 {
     private int salary;
